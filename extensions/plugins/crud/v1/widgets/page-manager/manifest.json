@@ -1,0 +1,6 @@
+{
+  "id": "page-manager",
+  "title": "Page manager",
+  "description": "Administrators create, rename, reorder, edit and delete the app's widget and link pages.",
+  "defaultConfig": {}
+}

@@ -1,0 +1,11 @@
+{
+  "id": "worker_transform",
+  "title": "Transform settings",
+  "description": "Settings editor for WorkerTransform: keep fields, add static fields and limit items.",
+  "role": "worker",
+  "defaultConfig": {
+    "pick": [],
+    "set": {},
+    "limit": 0
+  }
+}

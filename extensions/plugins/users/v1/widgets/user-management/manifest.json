@@ -1,0 +1,6 @@
+{
+  "id": "user-management",
+  "title": "User management",
+  "description": "Organization administrators invite members, change roles and decide join requests.",
+  "defaultConfig": {}
+}

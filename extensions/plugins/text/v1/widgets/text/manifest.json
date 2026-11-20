@@ -1,0 +1,6 @@
+{
+  "id": "text",
+  "title": "Text",
+  "description": "A heading and plain text. No HTML is executed.",
+  "defaultConfig": { "heading": "Welcome", "text": "This widget is loaded from the extensions volume." }
+}

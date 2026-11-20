@@ -1,0 +1,9 @@
+{
+  "id": "worker_start",
+  "title": "Start trigger settings",
+  "description": "Settings editor for the WorkerStart trigger: static fields added to the emitted item.",
+  "role": "worker",
+  "defaultConfig": {
+    "set": {}
+  }
+}

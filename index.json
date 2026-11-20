@@ -1,0 +1,466 @@
+{
+  "version": 1,
+  "modules": {
+    "app_overview": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "8a389a5de93f23e0e0be6f168eb741bb47f912b828ab943395739d3a37b16d9b",
+        "api": [],
+        "services": [],
+        "widgets": [
+          {
+            "widget": "app-overview",
+            "title": "Deployed apps",
+            "description": "Every deployed app with its address, version, image and status; administrators can delete an app."
+          }
+        ],
+        "requirements": []
+      }
+    },
+    "auth": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "0e117bc0cd82077026a295e69f673c4f8187abffd97a99b8d2713e4edb6cb6eb",
+        "api": [
+          {
+            "plugin": "Login",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "LoginSvc",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [
+          {
+            "widget": "login",
+            "title": "Sign in",
+            "description": "Workspace sign-in form using the host authentication callback."
+          }
+        ],
+        "requirements": []
+      }
+    },
+    "crud": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "511c12efd7e18476934af7ad57fa1ad6314020be8a977027229575bb660a5169",
+        "api": [
+          {
+            "plugin": "Create",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Delete",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Read",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Update",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [
+          {
+            "widget": "page-manager",
+            "title": "Page manager",
+            "description": "Administrators create, rename, reorder, edit and delete the app's widget and link pages."
+          }
+        ],
+        "requirements": []
+      }
+    },
+    "email_sender": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "dc8fe5d98d0a25e6b883e980c9112a7cd2d6e6e02ccd9b7375b60b2c4bb1ceda",
+        "api": [],
+        "services": [
+          {
+            "plugin": "WorkerSendEmail",
+            "access": "private",
+            "roles": [],
+            "description": "Sends one email through an SMTP server when the workflow reaches this step.",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "widgets": [
+          {
+            "widget": "worker_send_email",
+            "title": "Send email settings",
+            "description": "Settings editor for WorkerSendEmail: SMTP server, vault secret, sender, recipients, subject and message."
+          }
+        ],
+        "requirements": []
+      }
+    },
+    "health": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "2990bfab31f67bf0aed3c7c1398b4508a047f0eb2341decff09c3fa3daf19554",
+        "api": [
+          {
+            "plugin": "Status",
+            "access": "public",
+            "roles": [],
+            "description": "Health of the API, database and service runner",
+            "methods": [
+              "GET"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [],
+        "requirements": []
+      }
+    },
+    "identity": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "446272dc3f73dd3b9967643ab99909f287cb50c7f40af7a29df8fec43cc2a43b",
+        "api": [
+          {
+            "plugin": "Me",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [],
+        "requirements": []
+      }
+    },
+    "organizations": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "d1d713a764864ec8efcd9da38cf0e6719aad106b3fb6b5509d447fc975a98c81",
+        "api": [
+          {
+            "plugin": "Read",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Update",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [],
+        "requirements": []
+      }
+    },
+    "page_manager": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "3b3ffc77307b87e7603293d5af1f324ffe5a1e0032d396c1af4dd2aaaef9fe43",
+        "api": [
+          {
+            "plugin": "Pages",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [],
+        "requirements": []
+      }
+    },
+    "text": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "6a698dd3f524a6c3259aa6b8c2b7e40530aa4b8a8dffe23bb16c835f3231845e",
+        "api": [],
+        "services": [],
+        "widgets": [
+          {
+            "widget": "text",
+            "title": "Text",
+            "description": "A heading and plain text. No HTML is executed."
+          }
+        ],
+        "requirements": []
+      }
+    },
+    "users": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "6bf5f9ed6d3bc9d4bbc55a17d82ab62fe345e095332bf9d2e4907f0d75548276",
+        "api": [
+          {
+            "plugin": "Create",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Delete",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Groups",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Invite",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Read",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Token",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Update",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [
+          {
+            "widget": "group-management",
+            "title": "Group management",
+            "description": "Organization administrators create user groups and choose their members."
+          },
+          {
+            "widget": "user-management",
+            "title": "User management",
+            "description": "Organization administrators invite members, change roles and decide join requests."
+          }
+        ],
+        "requirements": []
+      }
+    },
+    "workflow_tools": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "08ac79628da627ac4bcea5169490c7aba3690bedc7cae5df7e9987add674c354",
+        "api": [],
+        "services": [
+          {
+            "plugin": "WorkerStart",
+            "access": "private",
+            "roles": [],
+            "description": "Trigger that always fires, emitting one item so the workflow's steps run.",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "WorkerTransform",
+            "access": "private",
+            "roles": [],
+            "description": "Reshapes the previous step's results in memory.",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "widgets": [
+          {
+            "widget": "worker_start",
+            "title": "Start trigger settings",
+            "description": "Settings editor for the WorkerStart trigger: static fields added to the emitted item."
+          },
+          {
+            "widget": "worker_transform",
+            "title": "Transform settings",
+            "description": "Settings editor for WorkerTransform: keep fields, add static fields and limit items."
+          }
+        ],
+        "requirements": []
+      }
+    },
+    "workflows": {
+      "v1": {
+        "organization": null,
+        "app": "default packages 4.0-ed5dd23ab373",
+        "published_at": "2026-11-20T07:35:34Z",
+        "checksum": "de0c6d5413dcb948ddd3fdc7b4be46393f65798ee7e00497bb7a43eb67346585",
+        "api": [
+          {
+            "plugin": "WorkflowPlugins",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "WorkflowRunNow",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "WorkflowRuns",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Workflows",
+            "access": "private",
+            "roles": [],
+            "description": "",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [
+          {
+            "widget": "workflow-editor",
+            "title": "Workflow editor",
+            "description": "Administrators build workflows, run a workflow or a single plugin once, and review run history."
+          }
+        ],
+        "requirements": []
+      }
+    }
+  }
+}

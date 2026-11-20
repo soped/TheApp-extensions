@@ -1,0 +1,6 @@
+{
+  "id": "group-management",
+  "title": "Group management",
+  "description": "Organization administrators create user groups and choose their members.",
+  "defaultConfig": {}
+}

@@ -1,0 +1,6 @@
+{
+  "id": "app-overview",
+  "title": "Deployed apps",
+  "description": "Every deployed app with its address, version, image and status; administrators can delete an app.",
+  "defaultConfig": {"title": "Deployed apps", "pollSeconds": 15}
+}

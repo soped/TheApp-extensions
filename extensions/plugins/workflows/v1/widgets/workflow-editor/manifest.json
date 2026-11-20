@@ -1,0 +1,6 @@
+{
+  "id": "workflow-editor",
+  "title": "Workflow editor",
+  "description": "Administrators build workflows, run a workflow or a single plugin once, and review run history.",
+  "defaultConfig": {"title": "Workflows"}
+}

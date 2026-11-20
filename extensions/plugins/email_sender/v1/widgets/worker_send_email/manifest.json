@@ -1,0 +1,16 @@
+{
+  "id": "worker_send_email",
+  "title": "Send email settings",
+  "description": "Settings editor for WorkerSendEmail: SMTP server, vault secret, sender, recipients, subject and message.",
+  "role": "worker",
+  "defaultConfig": {
+    "smtp": { "host": "smtp.gmail.com", "port": 587, "security": "starttls" },
+    "username": "",
+    "sender": "",
+    "secret": "",
+    "recipients": [],
+    "subject": "",
+    "message": "",
+    "include_last_result": false
+  }
+}

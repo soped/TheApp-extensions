@@ -1,0 +1,11 @@
+{
+  "id": "login",
+  "title": "Sign in",
+  "description": "Workspace sign-in form using the host authentication callback.",
+  "role": "login",
+  "defaultConfig": {
+    "brand": "ARCANIST",
+    "title": "The Application",
+    "description": "Sign in to your organization's workspace."
+  }
+}
