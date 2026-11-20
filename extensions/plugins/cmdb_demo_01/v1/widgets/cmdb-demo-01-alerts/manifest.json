@@ -1,0 +1,6 @@
+{
+  "id": "cmdb-demo-01-alerts",
+  "title": "CMDB live status",
+  "description": "Alert banner from 10-second changes-since polling: failed item, severity, affected count and owner team; click for start time, duration, outage vs failover, affected items by owner and environment.",
+  "defaultConfig": { "expanded": false, "showEvents": true }
+}

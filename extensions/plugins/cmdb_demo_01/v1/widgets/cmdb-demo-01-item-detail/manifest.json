@@ -1,0 +1,6 @@
+{
+  "id": "cmdb-demo-01-item-detail",
+  "title": "CMDB item detail",
+  "description": "One CMDB demo item's owner, environment, status and notes with its incoming and outgoing relations; related items are clickable.",
+  "defaultConfig": { "item": "srv-db-01" }
+}

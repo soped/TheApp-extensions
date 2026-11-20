@@ -1,0 +1,6 @@
+{
+  "id": "cmdb-demo-01-simulator",
+  "title": "CMDB impact simulator",
+  "description": "Pick an item and simulate it going down, run the demo scenarios, and highlight affected items and owner teams; random mode calls the simulate endpoint on an interval (at least 10 s).",
+  "defaultConfig": { "item": "sw-core-01", "durationSeconds": 60, "intervalSeconds": 30, "randomDurationSeconds": 20 }
+}

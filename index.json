@@ -58,6 +58,121 @@
         "requirements": []
       }
     },
+    "cmdb_demo_01": {
+      "v1": {
+        "organization": "6a31a00e0aa1a675651ab1b0",
+        "app": "cmdb-demo-01",
+        "published_at": "2026-11-20T15:33:46Z",
+        "checksum": "9b0c5ee4ecaee9e345d5d4d95752efee760fe1afb6a19aa1279acb0198099a09",
+        "api": [
+          {
+            "plugin": "ChangesSince",
+            "access": "private",
+            "roles": [],
+            "description": "Status-change events after a timestamp, plus the current alert",
+            "methods": [
+              "GET"
+            ]
+          },
+          {
+            "plugin": "Events",
+            "access": "private",
+            "roles": [],
+            "description": "CMDB demo status-change log with affected items and owner teams",
+            "methods": [
+              "GET"
+            ]
+          },
+          {
+            "plugin": "Impact",
+            "access": "private",
+            "roles": [],
+            "description": "Blast radius of CMDB demo items going down, with owner teams and redundancy",
+            "methods": [
+              "GET"
+            ]
+          },
+          {
+            "plugin": "Items",
+            "access": "private",
+            "roles": [],
+            "description": "CMDB demo items with filters by type, owner, status and environment",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Relations",
+            "access": "private",
+            "roles": [],
+            "description": "Create, list and delete depends/owns/redundant links between CMDB demo items",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Seed",
+            "access": "private",
+            "roles": [],
+            "description": "Counts of the CMDB demo mock data; administrators can wipe and reseed it",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Simulate",
+            "access": "private",
+            "roles": [],
+            "description": "Inject a mock failure (random item, chosen item or demo scenario) into the CMDB demo",
+            "methods": [
+              "POST"
+            ]
+          },
+          {
+            "plugin": "Simulator",
+            "access": "private",
+            "roles": [],
+            "description": "Start/stop the CMDB demo failure simulator, run scenarios and recover failures",
+            "methods": [
+              "GET",
+              "POST"
+            ]
+          }
+        ],
+        "services": [],
+        "widgets": [
+          {
+            "widget": "cmdb-demo-01-alerts",
+            "title": "CMDB live status",
+            "description": "Alert banner from 10-second changes-since polling: failed item, severity, affected count and owner team; click for start time, duration, outage vs failover, affected items by owner and environment."
+          },
+          {
+            "widget": "cmdb-demo-01-graph",
+            "title": "CMDB dependency graph",
+            "description": "Visual graph of CMDB demo items and their depends, owns and redundant links; status by colour and the active alert's blast radius highlighted."
+          },
+          {
+            "widget": "cmdb-demo-01-inventory",
+            "title": "CMDB inventory",
+            "description": "Table of all CMDB demo items (switches, servers, databases, apps) with type, owner, status and environment filters; click a row to open it in the item detail widget."
+          },
+          {
+            "widget": "cmdb-demo-01-item-detail",
+            "title": "CMDB item detail",
+            "description": "One CMDB demo item's owner, environment, status and notes with its incoming and outgoing relations; related items are clickable."
+          },
+          {
+            "widget": "cmdb-demo-01-simulator",
+            "title": "CMDB impact simulator",
+            "description": "Pick an item and simulate it going down, run the demo scenarios, and highlight affected items and owner teams; random mode calls the simulate endpoint on an interval (at least 10 s)."
+          }
+        ],
+        "requirements": []
+      }
+    },
     "crud": {
       "v1": {
         "organization": null,

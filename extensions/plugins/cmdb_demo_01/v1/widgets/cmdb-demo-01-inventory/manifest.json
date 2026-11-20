@@ -1,0 +1,6 @@
+{
+  "id": "cmdb-demo-01-inventory",
+  "title": "CMDB inventory",
+  "description": "Table of all CMDB demo items (switches, servers, databases, apps) with type, owner, status and environment filters; click a row to open it in the item detail widget.",
+  "defaultConfig": { "filters": {} }
+}

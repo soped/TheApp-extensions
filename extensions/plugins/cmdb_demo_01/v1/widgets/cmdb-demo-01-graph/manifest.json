@@ -1,0 +1,6 @@
+{
+  "id": "cmdb-demo-01-graph",
+  "title": "CMDB dependency graph",
+  "description": "Visual graph of CMDB demo items and their depends, owns and redundant links; status by colour and the active alert's blast radius highlighted.",
+  "defaultConfig": { "showOwnership": true }
+}
