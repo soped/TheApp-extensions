@@ -1,0 +1,6 @@
+{
+  "id": "personal-assistant-2-sync",
+  "title": "Assistant: Saved and in sync",
+  "description": "Sync status, changes made in two places, backups and restore.",
+  "defaultConfig": {"title": "Saved and in sync"}
+}

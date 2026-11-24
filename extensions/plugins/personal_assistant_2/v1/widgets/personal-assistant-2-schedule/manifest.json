@@ -1,0 +1,6 @@
+{
+  "id": "personal-assistant-2-schedule",
+  "title": "Assistant: Your day",
+  "description": "Wake time, work hours, bedtime, work days and fixed blocks the planner uses.",
+  "defaultConfig": {"title": "Your day"}
+}

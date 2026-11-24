@@ -1,0 +1,6 @@
+{
+  "id": "personal-assistant-2-tasks",
+  "title": "Assistant: Tasks",
+  "description": "Create, edit, start, finish and delete tasks and sub-tasks. Works offline.",
+  "defaultConfig": {"title": "Tasks"}
+}

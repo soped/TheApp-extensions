@@ -1,0 +1,6 @@
+{
+  "id": "personal-assistant-2-today",
+  "title": "Assistant: Today",
+  "description": "Today's plan in time order, with what did not get a place. Works offline.",
+  "defaultConfig": {"title": "Today"}
+}

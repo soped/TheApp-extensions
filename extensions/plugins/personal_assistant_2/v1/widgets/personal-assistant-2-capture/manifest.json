@@ -1,0 +1,6 @@
+{
+  "id": "personal-assistant-2-capture",
+  "title": "Assistant: Inbox capture",
+  "description": "Save a thought by text or voice, on this device first, and sort it later.",
+  "defaultConfig": {"title": "Inbox"}
+}

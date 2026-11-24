@@ -1,0 +1,6 @@
+{
+  "id": "personal-assistant-2-display",
+  "title": "Assistant: Display",
+  "description": "Colour-blind mode, energy and motion settings, and what the signs mean.",
+  "defaultConfig": {"title": "Display"}
+}
